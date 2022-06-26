@@ -21,7 +21,7 @@ public class Simple {
 	case "chrome":
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		break;
+		break; 
 	case"firefox":
 		WebDriverManager.firefoxdriver().setup();
 		driver=new FirefoxDriver();
