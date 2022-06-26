@@ -10,6 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Simple {
 	@Test
+
 	public void simple()
 	
 	{
@@ -40,5 +41,11 @@ public class Simple {
 	driver.close();
 	}
 	
+
+public void simple()
+{
+	System.out.println("Sample Jenkins hello");
+}
+
 }
 
