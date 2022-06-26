@@ -16,7 +16,7 @@ public class Simple {
 		System.out.println("Sample Jenkins");
 		WebDriver driver=null;
 	String browser="chrome";
-	String url="httpe://localhost:8888";
+	String url="httpe://localhost:8888"; 
 	switch (browser) {
 	case "chrome":
 		WebDriverManager.chromedriver().setup();
